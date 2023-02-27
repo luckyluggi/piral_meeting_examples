@@ -1,0 +1,13 @@
+﻿@page "/loadorder"
+@inject ExampleJsInterop _jsService
+
+<h1>LoadOrder</h1>
+
+<button @onclick="ClickHandler">click me</button>
+
+@code{
+    void ClickHandler ()
+    {
+        _jsService.Log("Hello user");
+    }
+}

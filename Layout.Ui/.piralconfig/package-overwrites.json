@@ -1,0 +1,7 @@
+{
+  "name": "@myorg/layout.ui",
+  "scripts": {
+    "start": "pilet debug ./src/index.tsx"
+  } 
+}
+ 

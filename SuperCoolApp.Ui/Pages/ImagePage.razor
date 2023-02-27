@@ -1,0 +1,6 @@
+﻿@page "/image"
+@inject IPiletService Pilet
+
+<h1>Image</h1>
+
+<img src=@Pilet.GetUrl("images/homer.png") width="200" />
