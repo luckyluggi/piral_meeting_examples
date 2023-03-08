@@ -1,0 +1,8 @@
+﻿@namespace Framework.Components
+@inherits BaseComponent
+@attribute [PiralComponent]
+@inject IPiletService Pilet
+
+<div class="logo">
+    <img src=@Pilet.GetUrl("logo.png") alt="Logo" />
+</div>
